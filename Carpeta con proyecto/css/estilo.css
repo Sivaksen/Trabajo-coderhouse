@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    margin: 3rem;
+
+}
+body{
+    background-color: #FFE5D9;
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu{
+    background-color: #9D8189;
+    padding: 0;
+    list-style-type: none;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 20px;
+}
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+.menu li a{
+    padding: 20px;
+    margin: 10px;
+    color: #FFE5D9;
+    text-decoration: none;
+    display: inline-block;
+}
+.menu li a:hover{
+    color: #9D8189;
+    background-color: #FFE5D9;
+    border-radius: 50px;
+}
+.tituloMat{
+    position: relative;
+    left: 550px;
+    top: 10px;
+    color: #9D8189;
+    margin: 2rem;
+    padding: 2rem;
+    font-size: 70px;
+    font-weight: bold;
+}
+img{
+    position: relative;
+    margin: 1rem;
+    padding: 1rem;
+    height: 500px;
+    width: 397px;
+    border-radius: 50px;
+    left: 150px;
+    bottom: 150px;
+}
+.texto1{
+    position: absolute;
+    left: 530px;
+    top: 300px;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: #9D8189;
+    color: #FFE5D9;
+    border-radius: 50px;
+    font-size: 40px;
+}
+.footerIndex{
+    bottom: 150px;
+    position: relative;
+    margin: 2rem;
+}
+.footerHab{
+    top: 390px;
+    position: relative;
+    margin: 2rem;
+}
+.siguiente{
+    background-color: #9D8189;
+    padding: 0;
+    list-style-type: none;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 20px;
+}
+.siguiente li{
+    display: inline-block;
+    text-align: center;
+}
+.siguiente li a{
+    padding: 20px;
+    margin: 10px;
+    color: #FFE5D9;
+    text-decoration: none;
+    display: inline-block;
+}
+.siguiente li a:hover{
+    color: #9D8189;
+    background-color: #FFE5D9;
+    border-radius: 50px;
+}
+
+.tituloHab{
+    position: relative;
+    right: 600px;
+    color: #9D8189;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.texto2{
+    position: fixed;
+    left: 100px;
+    top: 220px;
+    margin: 3rem;
+    padding: 3rem;
+    background-color: #9D8189;
+    color: #FFE5D9;
+    border-radius: 50px;
+    font-size: 40px;
+}
+.tituloIdioma{
+    position: relative;
+    left: 100px;
+    bottom: 80px;
+    color: #9D8189;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.idiomas{
+    position: fixed;
+    right: 400px;
+    bottom: 465px;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: #9D8189;
+    color: #FFE5D9;
+    border-radius: 50px;
+    font-size: 40px;
+}
+
+.tituloEstudios{
+    position: relative;
+    color: #9D8189;
+    margin: 2rem;
+    padding: 2rem;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    right: 600px;
+    bottom: 50px;
+}
+.texto3{
+    position: absolute;
+    left: 100px;
+    top: 220px;
+    margin: 3rem;
+    padding: 3rem;
+    background-color: #9D8189;
+    color: #FFE5D9;
+    border-radius: 50px;
+    font-size: 40px;
+}
+.tituloExtra{
+    position: relative;
+    color: #9D8189;
+    margin: 2rem;
+    padding: 2rem;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    bottom: 230px;
+    left: 350px;
+}
+.texto4{
+    position: absolute;
+    left: 1000px;
+    bottom: 320px;
+    margin: 3rem;
+    padding: 3rem;
+    background-color: #9D8189;
+    color: #FFE5D9;
+    border-radius: 50px;
+    font-size: 40px;
+}
+.footerEstudios{
+    position: relative;
+    margin: 2rem;
+    top: 280px;
+}
+.tituloExpLaboral{
+    position: relative;
+    color: #9D8189;
+    margin: 2rem;
+    padding: 2rem;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: Top;
+    left: 100px;
+}
+.texto5{
+    position: absolute;
+    bottom: 200px;
+    left: 100px;
+    margin: 3rem;
+    padding: 3rem;
+    background-color: #9D8189;
+    color: #FFE5D9;
+    border-radius: 50px;
+    font-size: 40px;
+}
+.voluntariado{
+    position: relative;
+    color: #9D8189;
+    margin: 2rem;
+    padding: 2rem;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    bottom: 178px;
+    left: 300px;
+}
+.texto6{
+    position: absolute;
+    bottom: 247px;
+    left: 1000px;
+    margin: 3rem;
+    padding: 3rem;
+    background-color: #9D8189;
+    color: #FFE5D9;
+    border-radius: 50px;
+    font-size: 40px;
+}
+.footerExpLaboral{
+    position: relative;
+    margin: 2rem;
+    top: 250px;
+}
+.tituloContacto{
+    position: relative;
+    color: #9D8189;
+    margin: 2rem;
+    padding: 2rem;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: Top;
+    left: 200px;
+}
+.texto7{
+    position: absolute;
+    bottom: 247px;
+    left: 200px;
+    margin: 3rem;
+    padding: 3rem;
+    background-color: #9D8189;
+    color: #FFE5D9;
+    border-radius: 50px;
+    font-size: 40px;
+}
+.imagen2{
+    position: relative;
+    margin: 1rem;
+    padding: 1rem;
+    height: 500px;
+    width: 397px;
+    border-radius: 50px;
+    left: 800px;
+}
+.footerContacto{
+    position: relative;
+    margin: 2rem;
+    bottom: 50px;
+}
