@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 nav{
-    margin: 3rem;
+    margin: 1rem;
 
 }
 body{
@@ -36,41 +36,33 @@ body{
     border-radius: 50px;
 }
 .tituloMat{
-    position: relative;
-    left: 550px;
-    top: 10px;
+    text-align: center;
     color: #9D8189;
-    margin: 2rem;
-    padding: 2rem;
-    font-size: 70px;
+    font-size: 45px;
     font-weight: bold;
 }
 img{
-    position: relative;
     margin: 1rem;
     padding: 1rem;
     height: 500px;
-    width: 397px;
+    width: 450px;
     border-radius: 50px;
-    left: 150px;
-    bottom: 150px;
 }
-.texto1{
-    position: absolute;
-    left: 530px;
-    top: 300px;
-    margin: 2rem;
+.textoIndex{
     padding: 2rem;
+    text-align: left;
     background-color: #9D8189;
     color: #FFE5D9;
     border-radius: 50px;
-    font-size: 40px;
+    font-size: 30px;
 }
 .footerIndex{
-    bottom: 150px;
-    position: relative;
-    margin: 2rem;
+    position: absolute;
+    width: 96%;
+    margin: 1.5rem;
 }
+
+
 .footerHab{
     top: 390px;
     position: relative;
