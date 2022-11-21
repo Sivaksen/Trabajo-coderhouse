@@ -41,7 +41,7 @@ body{
     font-size: 45px;
     font-weight: bold;
 }
-img{
+.imgIndex{
     margin: 1rem;
     padding: 1rem;
     height: 500px;
@@ -62,12 +62,6 @@ img{
     margin: 1.5rem;
 }
 
-
-.footerHab{
-    top: 390px;
-    position: relative;
-    margin: 2rem;
-}
 .siguiente{
     background-color: #9D8189;
     padding: 0;
@@ -94,43 +88,56 @@ img{
 }
 
 .tituloHab{
-    position: relative;
-    right: 600px;
+    display: flex;
+    justify-content: space-around;
     color: #9D8189;
     font-size: 50px;
     font-weight: bold;
     text-align: center;
 }
-.texto2{
-    position: fixed;
-    left: 100px;
-    top: 220px;
-    margin: 3rem;
+.textosGlobal{
+    display: flex;
+    justify-content: space-around;
+}
+.textoHab{
+    margin: 1rem;
     padding: 3rem;
     background-color: #9D8189;
     color: #FFE5D9;
     border-radius: 50px;
     font-size: 40px;
 }
-.tituloIdioma{
-    position: relative;
-    left: 100px;
-    bottom: 80px;
-    color: #9D8189;
-    font-size: 50px;
-    font-weight: bold;
-    text-align: center;
-}
-.idiomas{
-    position: fixed;
-    right: 400px;
-    bottom: 465px;
-    margin: 2rem;
+.textoIdiomas{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
     padding: 2rem;
     background-color: #9D8189;
     color: #FFE5D9;
     border-radius: 50px;
     font-size: 40px;
+}
+.banderasHab{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.banderaBrit{
+    padding: 1rem;
+    height: 170px;
+    width: 320px;
+    border-radius: 50px;
+}
+.banderaEsp{
+    padding: 1rem;
+    height: 170px;
+    width: 320px;
+    border-radius: 50px;
+}
+.footerHab{
+    position: absolute;
+    width: 96%;
+    margin: 1.5rem;
 }
 
 .tituloEstudios{
