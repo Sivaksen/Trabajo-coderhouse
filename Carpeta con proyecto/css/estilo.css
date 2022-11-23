@@ -50,7 +50,7 @@ footer{
     font-size: 45px;
     font-weight: bold;
 }
-.imgIndex{
+.imagenMat{
     margin: 1rem;
     padding: 1rem;
     height: 500px;
@@ -211,17 +211,6 @@ footer{
     font-size: 40px;
     text-align: left;
 }
-
-.tituloContacto{
-    display: flex;
-    justify-content: center;
-    color: #9D8189;
-    margin: 2rem;
-    padding: 2rem;
-    font-size: 50px;
-    font-weight: bold;
-    text-align: Top;
-}
 .textoContacto{
     padding: 2rem;
     text-align: left;
@@ -240,10 +229,4 @@ footer{
     border-radius: 50px;
     font-size: 30px;
 }
-.imagenContacto{
-    margin: 1rem;
-    padding: 1rem;
-    height: 500px;
-    width: 450px;
-    border-radius: 50px;
-}
+

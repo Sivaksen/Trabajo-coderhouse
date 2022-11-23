@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilo.css">
     <title>Mateo Sivak - Habilidades</title>
 </head>
@@ -28,7 +29,10 @@
         </ul>
     </nav>
     <main>
-        <section class="tituloHab">
+        <section class="tituloHab" 
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
             <p>
                 Habilidades
             </p>
@@ -73,6 +77,9 @@
             </li>
         </ul>
     </footer>
-    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
